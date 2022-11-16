@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webデザイン論 演習まとめページ</title>
+</head>
+
+<body>
+    <header>
+        <h1>Webデザイン論<span style="margin-left: 10px;">演習まとめページ</span></h1>
+    </header>
+
+    <hr>
+
+    <nav></nav>
+
+    <main>
+      <div class="container">
+        <img src="https://up-j.shigaku.go.jp/photo/00000000654502000/0_20170501152235.jpg" alt="松山大学" width="100%">
+        <p style="font-size: 12px;">画像引用:<a href="https://up-j.shigaku.go.jp/school/category01/00000000654502000.html">松山大学<span style="margin-left: 4px;">本学の特色</span><span style="margin-left:4px ;">大学ポートレート様</span></a>より</p>
+        
+        <article>
+          <h2>2022年度のWebデザイン論で扱った演習をまとめたサイトです</h2>
+            <dl>
+                <dt style="font-size:20px;"><a href="#">HTML入力演習1</a></dt>
+                <dd style="margin-top: 5px;">見出しを表すh要素・段落を表すp要素~</dd>
+                <dt style="font-size:20px;"><a href="#">HTML入力演習2</a></dt>
+                <dd style="margin-top:5px;">画像を挿入するimg要素・文書同士をつなげるa要素~</dd>
+                <dt style="font-size:20px;"><a href="#">HTML入力演習3</a></dt>
+                <dd style="margin-top:5px;">表組みを作るtable要素・フォームを作るform要素~</dd>
+            </dl>
+       </article>
+
+       <aside>
+        <ul>
+            <li><a href="#">HTML入力演習1</a><span style="margin-left:10px;">10/6実習</span></li>
+            <li><a href="#">HTML入力演習2</a><span style="margin-left:10px;">10/13実習</span></li>
+            <li><a href="#">HTML入力演習3</a><span style="margin-left:10px;">10/27実習</span></li>
+        </ul>
+
+        <a href="#"><p>TOPページに戻る</p></a>
+       </aside>
+
+       <article>
+        <h3>このサイトは役に立ちましたか？</h3>
+         <form action="mailform.php" method="post"></form>
+
+         <p>
+            <select name="役立ったか">
+                <option value="はい">はい</option>
+                <option value="いいえ">いいえ</option>
+            </select>
+         </p>
+            
+
+        <h4>ご意見があればお聞かせください</h4>
+         <p>
+            <textarea name="questions" cols="50" rows="8"></textarea>
+         </p>
+
+         <p>
+            <input name="submit" type="submit" value="確認画面へ">
+         </p>
+       </article>
+      </div>
+
+    <hr>
+
+    </main>
+
+    <footer>
+        <small><strong>&copy;2022 Web Design</strong></small>
+        <a href="https://www.matsuyama-u.ac.jp/" target="_blank" rel="noopener noreferre"><img src="https://www.matsuyama-u.ac.jp/wp-content/themes/matsuyama_u_theme_v2/assets/img/common/pic_logo.svg" alt="松山大学のロゴ" width="100" align="right"></a>
+    </footer>
+</body>
+
+</html>
